@@ -1,0 +1,15 @@
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+#gallery{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+#gallery > .item:not(:last-child) {
+  margin-right: 10px;
+}
+
