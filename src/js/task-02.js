@@ -1,16 +1,6 @@
-
+import ingredients from './data/ingredients.js'
 
 const listIngredEl = document.querySelector('#ingredients');
-
-
-const ingredients = [
-    'Картошка',
-    'Грибы',
-    'Чеснок',
-    'Помидоры',
-    'Зелень',
-    'Приправы',
-];
 
 
 const makeIngredientsList = items => {
