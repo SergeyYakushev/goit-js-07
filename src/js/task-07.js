@@ -4,8 +4,6 @@ const refs = {
     text: document.querySelector('#text'),
 };
 
-console.log(refs.input);
-console.log(refs.text);
 
 refs.input.addEventListener('input', onInputChange);
 
