@@ -4,14 +4,9 @@ input.addEventListener('blur', onBlurInputChange);
 
 function onBlurInputChange(event) {
 
-
-    if (event.currentTarget.value.length === Number(input.dataset.length)) {
-
-        input.classList.toggle('valid');
-    } else {
-
+    (event.currentTarget.value.length === Number(input.dataset.length)) ?
+        input.classList.toggle('valid') :
         input.classList.toggle('invalid');
-    }
+
 
 };
-
